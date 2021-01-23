@@ -1,237 +1,263 @@
-* {
-    margin: 0;
-    box-sizing: border-box;
-    font-family: lato-regular;
+.basic-mutual-fund .top-header {
+    height: 200px;
+    width: 100%;
+    background-image: url('../images/header-inside-curve.svg');
+    background-size: cover;
+    background-position: bottom;
+
 }
 
-@font-face {
-    font-family: lato-regular;
-    src: url('../fonts/Lato-Regular.ttf');
+.basic-mutual-fund .learn-background {
+    height: 600px;
+    width: 100%;
+    background-image: url('../images/learn-bg.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+
 }
 
-@font-face {
-    font-family: lato-bold;
-    src: url('../fonts/Lato-Bold.ttf');
-}
-
-.custom-container {
-    width: 90%;
-    margin: auto;
-}
-
-.footer-top {
-    background-color: #F5821F;
-    position: relative;
-    width: 85%;
-    margin: auto;
-    padding: 15px 50px;
-    margin-bottom: 80px;
+.basic-mutual-fund .investment h3 {
+    display: inline-block;
+    background-color: #F8A03F;
+    padding: 10px 20px;
     border-radius: 10px;
-    z-index: 1;
-
+    font-weight: bold;
 }
 
-.footer-top h2,
-.footer-top h5,
-.footer-top p {
-    color: white;
+.basic-mutual-fund .investment h3,.basic-mutual-fund .investment 
+h2 {
+    color: #335790;
 }
 
-.footer-top h2 {
-    font-family: lato-bold;
+.basic-mutual-fund #chapter-1 {
+    background-color: #FEF7EB;
 }
 
-.footer-bottom {
-    background-color: #174082;
-    margin-top: -400px;
-    padding-top: 400px;
-    clip-path: polygon(50% 0, 100% 20%, 100% 100%, 0 100%, 0 20%);
-    position: relative;
+.basic-mutual-fund #chapter-2 {
+    background-color: #F5FAFB;
 }
 
-.help {
-    background-color: #F5821F;
-    display: inline-block;
-    padding: 10px 15px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    color: #F8A762;
-    font-family: lato-bold;
-    font-size: 15px;
+.basic-mutual-fund #chapter-3 {
+    background-color: #FDF5E3;
 }
 
-.help-div {
-    margin-bottom: 50px;
-    margin: auto;
-    text-align: center;
-    position: relative;
-    z-index: 1;
-    margin-bottom: -20px;
+.basic-mutual-fund #chapter-4 {
+    background-color: #F5F9FB;
 }
 
-input[type=text] {
-    border-radius: 40px;
-    background-color: #F5821F;
-    margin-bottom: 20px;
-    box-shadow: none;
+.basic-mutual-fund .curve {
+    height: 50px;
+    width: 100%;
+    background-image: url('../images/gradient-curve.png');
+    background-position: top;
+    background-size: cover;
 }
 
-.has-search .form-control {
-    padding-left: 2.375rem;
+.basic-mutual-fund .curve-grey {
+    height: 50px;
+    width: 100%;
+    background-image: url('../images/gradient-curve-grey.png');
+    background-position: top;
+    background-size: cover;
 }
 
-.has-search .form-control-feedback {
+.basic-mutual-fund .investment .row {
+    padding: 80px 100px 10px;
+}
+
+.basic-mutual-fund .chapter-index {
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px gray;
+    margin-top: 10px;
+    padding: 30px 30px 0 30px;
+    background-color: #FFFFFF;
     position: absolute;
-    z-index: 2;
-    display: block;
-    width: 2.375rem;
-    height: 2.375rem;
-
-    line-height: 2.375rem;
-    text-align: center;
-    pointer-events: none;
-    color: #aaa;
-
-}
-.btn-top-text{font-size: 10px;}
-
-input:hover, .form-control-feedback i:hover  {
     
-    border: 1px solid #F75A29;
+    margin: -50px 100px 0px 100px;
+}
+.basic-mutual-fund .investment{padding-top: 30px;}
+.basic-mutual-fund .chapter-menu {
+    margin-bottom: 0;
 }
 
-/* .icon:hover {
-    color: #F75A29;
-} */
-
-.form-control:focus {
-    background-color: white;
-    box-shadow: none;
-    border: 1px solid #F75A29;
-}
-
-.btn-style {
-    border-radius: 40px;
-    padding: 12px 30px;
-    border: 1px solid white;
-    color: white;
-}
-
-.btn-style:hover {
-    background-color: #B02A30;
-    color: white;
-}
-
-/* .label {
-    display: inline-block;
-    position: relative;
-    left: -37%;
-    top: 30%;
-} */
-
-/* .icon {
-    display: inline-block;
-    position: relative;
-    right: 44%;
-    top: 50%; 
-    height: 30px;
-    width: 30px;
-    border: 1px solid #eda86d;
-    color: #eda86d;
-    border-radius: 50%;
-} */
-
-.footer-bottom {
-    color: white;
-}
-
-
-.footer-bottom h4 {
-    border-bottom: 2px solid #45669B;
-    margin-bottom: 10px;
-    padding: 2px 0;
-    font-size: 18px;
-    line-height: 20px;
-    color: #E6EBF2;
-    font-family: lato-bold;
-    padding-bottom: 12px;
-}
-
-.footer-bottom a {
-    font-size: 13px;
-    font-family: lato-regular;
-    line-height: 20px;
-    color: #E6EBF2;
-}
-
-
-.footer-bottom ul {
+.basic-mutual-fund .chapter-menu ul {
     list-style: none;
 }
 
-.footer-bottom ul li a {
+.basic-mutual-fund .chapter-menu ul li {
+    display: inline-block;
+    border-right: 2px solid #E5E5E5;
+    margin-bottom: 0;
+}
+
+.basic-mutual-fund .chapter-menu ul li:last-child {
+    border-right: none;
+}
+
+.basic-mutual-fund .chapter-menu ul li a {
+    display: block;
     text-decoration: none;
-    color: white;
-    display: inline-block;
-    border-bottom: 1px;
+    padding: 10px 30px;
+    border-bottom: 3px solid #FFFFFF;
 }
 
-.footer-bottom ul li a:hover {
-    color: #F57A4D;
-
-    transition: .5s;
+.basic-mutual-fund .chapter-menu ul li a:active {
+    border-bottom: 3px solid #97291E;
 }
 
-.social ul li {
-    display: inline-block;
+.basic-mutual-fund .chapter-menu ul li a:hover {
+    border-bottom: 3px solid #97291E;
 }
 
-
-
-.copy-right {
-    background-color: #F5821F;
-    color: white;
-    padding: 20px 0;
-}
-
-
-
-.social-icon a {
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    border: 1px solid #F9E5DA;
-    border-radius: 50%;
-    text-align: center;
-    padding-top: 8px;
-    font-size: 15px;
-}
-.social-icon a:hover{
-    border: 1px solid #F57A4D;
-    font-size: 20px;
-    transition: 2s ease-in-out;
-}
-/* .footer-bottom-laptop{display: block}  */
-.footer-bottom-mobile {
+.basic-mutual-fund .chapter-menu select {
     display: none;
 }
 
-
-
-@media screen and(max-width:1300px) {}
-
-
-
-@media (max-width:1000px) {
-    .footer-bottom-laptop {
+@media (max-width: 960px) {
+    .basic-mutual-fund .chapter-menu ul {
         display: none;
     }
 
-    .footer-bottom-mobile {
+    .basic-mutual-fund .chapter-menu select {
         display: inline-block;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        color: #FF6130;
     }
-    /* .footer-bottom:last-child h4{border-bottom: none;} */
+}
+
+.basic-mutual-fund .chapter-bottom-card {
+    box-shadow: 5px 5px 30px gray;
+    margin: 0 100px 50px 100px;
+    padding: 20px 20px;
+
+    border-radius: 7px;
+}
+
+.basic-mutual-fund .chapter-bottom-card div {
+    margin: 15px 15px;
+}
+
+.basic-mutual-fund .chapter-bottom-card h5 {
+    color: #204181;
+}
+
+.basic-mutual-fund .chapter-bottom-card p {
+    color: #707A86;
+}
+
+.basic-mutual-fund .chapter-bottom-card .btn {
+    border-radius: 20px;
+    padding: 5px 20px;
+    background-color: #FC761E;
+}
+
+.basic-mutual-fund .chapter-bottom-card .btn:hover {
+    background-color: #B32D2F;
+}
+
+.basic-mutual-fund .custom-card {
+    padding: 20px 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px gray;
+    color: #FF5824;
+    margin: 10px 0px;
+}
+
+.basic-mutual-fund .custom-card p {
+    margin: 0;
+}
+
+.basic-mutual-fund hr.line-2 {
+
+    width: 80px;
+    height: 4px;
+    background-color: #B02A30;
+    opacity: 100%;
+    text-align: center;
+    margin: auto;
 
 }
 
+.basic-mutual-fund hr.line {
+    width: 80px;
+    height: 4px;
+    background-color: #B02A30;
+    opacity: 100%
+}
 
+
+.basic-mutual-fund .chapter-number {
+
+    display: inline-block;
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin-left: 5px;
+    text-align: center;
+    padding-top: 2px;
+
+}
+
+.basic-mutual-fund .chapter-4-bottom-curve {
+
+    height: 100px;
+    width: 100%;
+    background-image: url('../images/gradient-curve-grey.png');
+    background-position: top;
+    /* background-attachment: fixed; */
+    background-size: cover;
+}
+
+.basic-mutual-fund .chapter-4-bottom-img {
+    width: 100%;
+    height: 250px;
+    background-image: url('../images/chapter4.jpg');
+    background-position: top;
+    background-size: cover;
+    position: absolute;
+    
+}
+
+.basic-mutual-fund .chapter-bottom-btn{margin: -70px 0 0 0;}
+.basic-mutual-fund .chapter-bottom-btn a{margin:0 30px;padding: 50x;}
+.basic-mutual-fund .chapter-bottom-btn .btn{border-radius: 20px; padding: 10px 15px;}
+.basic-mutual-fund .chapter-bottom-btn .btn:hover{background-color: #B22C30; color: #FFFFFF;}
+
+/* videos */
+
+
+@media (max-width:830px) {
+    .basic-mutual-fund .chapter-index{ margin-left: 10px; margin-right: 10px;}
+    .basic-mutual-fund .investment{margin-top: 20px; padding-top: 50px;}
+    .basic-mutual-fund .investment .row {
+        padding: 80px 50px 10px;
+    }
+    .basic-mutual-fund .chapter-bottom-card {margin: 0 50px 50px 50px;}
+}
+@media (max-width:630px) {
+    /* .chapter-index{ margin-bottom: 200px; padding: 100px;} */
+    .basic-mutual-fund .investment{margin-top: 20px; padding-top: 80px;}
+}
+@media (max-width:550px) {
+    /* .chapter-index{ margin-bottom: 200px; padding: 100px;} */
+    .basic-mutual-fund .investment{margin-top: 20px; padding-top: 100px;}
+}
+@media (max-width:500px) {
+    /* .chapter-index{ margin-bottom: 200px; padding: 100px;} */
+    .basic-mutual-fund .investment{margin-top: 20px; padding-top: 150px;}
+}
+@media (max-width:450px) {
+    /* .chapter-index{ margin-bottom: 200px; padding: 100px;} */
+    .basic-mutual-fund .investment{margin-top: 20px; padding-top: 200px;}
+}
+@media (max-width:425px) {
+    /* .chapter-index{ margin-bottom: 200px; padding: 100px;} */
+    .basic-mutual-fund .investment{margin-top: 20px; padding-top: 260px;}
+}
