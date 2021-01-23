@@ -1,2 +1,2 @@
-# <a href="https://ab-siddiq.github.io/ekushe-footer/">LIVE</a>
-# basic-mutual-fund
+# <a href="https://ab-siddiq.github.io/basic-mutual-fund/">LIVE</a>
+
